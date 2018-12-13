@@ -4,46 +4,68 @@
     <meta charset="UTF-8">
     <title>MIZTLI</title>
     <link rel="stylesheet" href="../assets/css/main.css">
-    <link rel="stylesheet" href="../assets/css/add.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
+  <style>
+      .jumbotron {
+          background-color: #1e45f4;
+          color: #fff;
+          padding: 15px 15px;
+      }
+      
+      .container-fluid {
+          padding: 60px 50px;
+      }
+      .logo {
+    font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+  </style>
+ <body>
+
+  <div class ="jumbotron text-center">
+    <h3>Miztli</h3>
+    <p>Para iniciar puedes revisar los apuntes de la materia en la barra lateral izquierda. 
+        El software está dividido en cuatro modulos, el laboratorio, la granja, ejercicios y apuntes.</p>
+  </div> 
+    <!-- Container (Sections) -->
+  <div class="container-fluid text-center">
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img style="width: 35%" src="../assets/images/AND_pluma1.png"/>
+      <br>
+      <button class="btn btn-primary"><a style="color:white" href="../src/apuntes.html">Apuntes</a>
+        <span class="glyphicon glyphicon-book"></span>
+      </button>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <img style="width: 35%" src="../assets/images/Lab1.png"/>
+      <br>
+      <button class="btn btn-primary"><a style="color: white" href="">Laboratorio</a>
+        <span class="glyphicon glyphicon-filter"></span></button>
+        <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <img style="width: 35%" src="../assets/images/granja.png"/>
+      <br>
+      <button class="btn btn-primary"><a style="color: white" href="">Granja</a>
+        <span class="glyphicon glyphicon-stats"></span></button>
+        <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    </div>
+  </div>
   
-  <body>
-    <header>
-    <hr></hr>
-    </header>
-    <section> 
-      <nav>
-        <ul>
-          <h2 align="center">Apuntes</h2>
-          <hr></hr>
-          <li><a href="#">->Historia de la Genética</a></li>
-          <li><a href="#">->Bases bioquimicas</a></li>
-          <li><a href="#">->Citogenética</a></li>
-          <li><a href="#">->Genética Molecular</a></li>
-        </ul>
-      </nav>
-      <article>
-        <p>Para iniciar puedes revisar los apuntes de la materia en la barra lateral izquierda. 
-          El software está dividido en cuatro modulos, el laboratorio, la granja, ejercicios y apuntes.</p>
-      </article>
-      <section>
-          <div class="row">
-              <div id="Apuntes">
-                <p><img style="width:15%" src="../assets/images/AND_pluma1.png"><span id="apuntes"></span></p>
-              </div>
-              <div class="col-xs-4">
-                <img style="width:15%" src="../assets/images/Lab1.png"/>
-                <br>
-                <button>Laboratorio</button>
-              </div>
-              <div class="col-xs-4">
-                <img style="width:15%" src="../assets/images/granja.png"/>
-                <br>
-                <button>Granja</button>
-              </div>
-            </div>
-      </section>
-    <footer>
+    <footer class="container-fluid text-center">
       <p>Miztli es un software del departamento de Genética y Bioestadística para la enseñanza y 
           modelación de la genética en veterinaria y zootecnia. Copyright © FMVZ-UNAM 2018</p>
     </footer>
