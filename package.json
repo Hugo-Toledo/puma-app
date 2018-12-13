@@ -1,0 +1,27 @@
+{
+  "name": "miztli",
+  "version": "1.0.0",
+  "description": "Software para Genética",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hugo-Toledo/puma-app"
+  },
+  "keywords": [
+    "Genética",
+    "Zootecnia",
+    "Animal"
+  ],
+  "author": "Hugo O. Toledo Alvarado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hugo-Toledo/puma-app/issues"
+  },
+  "homepage": "https://github.com/Hugo-Toledo/puma-app/readme",
+  "devDependencies": {
+    "electron": "3.0.10"
+  }
+}

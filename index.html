@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>MIZTLI</title>
+    <style>
+      * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(140, 25, 25);
+  padding: 15px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: rgb(204, 204, 204);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #ddcccc;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(5, 25, 190);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+    </style>
+  </head>
+  
+  <body>
+    <header>
+      <h2>GENÉTICA</h2>
+      <hr></hr>
+      <h3 align = "center">Universidad Nacional Autónoma de México</h3>
+      <h3 align = "center">Facultad de Medicina Veterinaria y Zootecnia</h3>
+    </header>
+    <section> 
+      <nav>
+        <ul>
+          <li><a href="#">Tema 1</a></li>
+          <li><a href="#">Tema 2</a></li>
+          <li><a href="#">Tema 3</a></li>
+        </ul>
+      </nav>
+      <article>
+        <h1>Laboratorio</h1>
+        <p>Info acerca del laboratorio</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus placerat ipsum,
+          a pellentesque nisi elementum eget. Sed scelerisque felis ac purus dictum, vel vulputate massa
+           ultricies. Vivamus porta sem odio, a volutpat felis ultricies ut. Sed gravida ipsum ac 
+           vestibulum dapibus. Suspendisse et fermentum neque. Ut in justo arcu. Vestibulum viverra 
+           vestibulum sem, non venenatis dui interdum quis. Nullam imperdiet ac purus sit amet 
+           imperdiet. Integer blandit dui a purus sodales semper sed ut justo. Pellentesque vulputate 
+           cursus ante, vitae consequat velit egestas et. Ut a est rutrum, tincidunt dolor ac, 
+           elementum risus. Vestibulum eget bibendum nunc.</p>
+      </article>
+    </section>
+    <footer>
+      <p>Miztli es un software del departamento de Genética y Bioestadística para la enseñanza y 
+          modelación de la genética en veterinaria y zootecnia. </p>
+    </footer>
+  </body>
+</html>
