@@ -3,81 +3,19 @@
   <head>
     <meta charset="UTF-8">
     <title>MIZTLI</title>
-    <style>
-      * {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: rgb(140, 25, 25);
-  padding: 15px;
-  text-align: center;
-  font-size: 15px;
-  color: white;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  background: rgb(204, 204, 204);
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #ddcccc;
-}
-
-/* Clear floats after the columns */
-section:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: rgb(5, 25, 190);
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-    </style>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/add.css">
   </head>
   
   <body>
     <header>
       <h2>GENÉTICA</h2>
       <hr></hr>
-      <h3 align = "center">Universidad Nacional Autónoma de México</h3>
-      <h3 align = "center">Facultad de Medicina Veterinaria y Zootecnia</h3>
     </header>
     <section> 
       <nav>
         <ul>
-          <li><a href="#">Tema 1</a></li>
+          <li><a href="#">Historia de la Genética</a></li>
           <li><a href="#">Tema 2</a></li>
           <li><a href="#">Tema 3</a></li>
         </ul>
@@ -97,7 +35,8 @@ footer {
     </section>
     <footer>
       <p>Miztli es un software del departamento de Genética y Bioestadística para la enseñanza y 
-          modelación de la genética en veterinaria y zootecnia. </p>
+          modelación de la genética en veterinaria y zootecnia. Copyright © FMVZ-UNAM 2018</p>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
